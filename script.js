@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Form Data:', { name, email, service, message });
         
         // Tampilkan pesan sukses
-        alert('Terima kasih! Pesan Anda telah berhasil dikirim. Kami akan menghubungi Anda segera.');
+        alert('Terima kasih! Pesan Anda telah berhasil dikirim. Jika 1 Menit Tidak Ada Balasan,Maka Di Sarankan kirim Pesan Melalui Pilihan Yang Tersedia.');
         
         // Reset form
         contactForm.reset();
